@@ -1,18 +1,32 @@
 
 # Snowflake Synthetic Data Platform
 
-Enterprise-grade synthetic data generation platform for Snowflake.
+Enterprise-grade synthetic data generation framework for Snowflake supporting:
+
+- Snowflake Native GENERATE_SYNTHETIC_DATA()
+- Empirical fallback generation
+- Referential integrity validation
+- Streamlit UI
+- Batch processing
+- Production observability
 
 ## Features
 
-- Snowflake Native synthetic generation
-- Empirical fallback generator
-- Streamlit UI
+- Native + fallback synthetic generation
+- Statistical realism
+- Enterprise validation framework
 - Snowpark integration
-- Referential integrity validation
-- Batch processing support
+- Streamlit-based UX
+- Batch-safe execution
 
-## Files
+## Folder Structure
 
-- streamlit_app.py
-- stored_procedures/
+See repository structure for details.
+
+## Deployment
+
+Deploy SQL procedures first, then launch Streamlit app.
+
+## License
+
+MIT
